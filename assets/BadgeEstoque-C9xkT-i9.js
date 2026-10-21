@@ -1,0 +1,1 @@
+import{Z as e,y as t}from"./index-sF6ghvqY.js";var n=e();function r(e){return e.estoque<=0?`zerado`:e.estoque<=e.estoqueMinimo?`baixo`:`ok`}function i({produto:e}){let i=r(e);return i===`zerado`?(0,n.jsx)(t,{tom:`tomate`,children:`Zerado`}):i===`baixo`?(0,n.jsx)(t,{tom:`mel`,children:`Baixo`}):(0,n.jsx)(t,{tom:`lima`,children:`OK`})}export{r as n,i as t};
